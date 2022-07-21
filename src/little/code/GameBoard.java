@@ -1,11 +1,11 @@
 package little.code;
 
 public class GameBoard {
-    Pieces[][] board;
+    public Pieces[][] board;
     int WIDTH = 3;
     int HEIGHT = 3;
 
-    GameBoard() {
+    public GameBoard() {
         board = new Pieces[WIDTH][HEIGHT];
         emptyBoard();
     }
